@@ -87,6 +87,7 @@ source $ZSH/oh-my-zsh.sh
 
 alias gs="g status -sb"
 alias ga="g add"
+alias gr="g reset"
 alias gco="g checkout"
 alias gcom="g checkout master"
 alias gcob="g checkout -b"
