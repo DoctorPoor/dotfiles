@@ -1,4 +1,6 @@
-# TODO: mac settings like show hidden files, mouse speed, trackpad speed, keyboard key repeat, etc
+defaults write com.apple.Finder AppleShowAllFiles true
+defaults write -g com.apple.mouse.scaling 12
+defaults write NSGlobalDomain ApplePressAndHoldEnabled -bool false
 
 # install brew
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
