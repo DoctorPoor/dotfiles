@@ -1,3 +1,8 @@
+# TODO: git configs like user and aliases
+# TODO: git ssh with github
+# TODO: setting up oh-my-zsh theme
+# TODO: setting up iTerm theme
+
 defaults write com.apple.Finder AppleShowAllFiles true
 defaults write -g com.apple.mouse.scaling 12
 defaults write NSGlobalDomain ApplePressAndHoldEnabled -bool false
@@ -7,9 +12,6 @@ defaults write NSGlobalDomain ApplePressAndHoldEnabled -bool false
 
 #install zsh
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-
-# TODO: git configs like user and aliases
-# TODO: git ssh with github
 
 brew install git
 brew install htop
@@ -23,4 +25,3 @@ brew cask install whatsapp
 brew cask install clipy
 brew cask install sublime-text
 brew cask install visual-studio-code
-
