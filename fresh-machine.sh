@@ -17,6 +17,7 @@ brew install git
 brew install htop
 brew install node
 brew install n
+brew install yarn
 
 brew cask install iterm2
 brew cask install google-chrome
