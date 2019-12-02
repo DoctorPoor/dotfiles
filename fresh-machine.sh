@@ -14,6 +14,7 @@ defaults write NSGlobalDomain ApplePressAndHoldEnabled -bool false
 #install zsh
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
+brew install thefuck
 brew install htop
 brew install node
 brew install n
