@@ -1,7 +1,8 @@
 # TODO: git configs like user and aliases
 # TODO: git ssh with github
-# TODO: setting up oh-my-zsh theme
 # TODO: setting up iTerm theme
+# TODO: setting up oh-my-zsh theme
+# TODO: setting up git aliases
 
 defaults write com.apple.Finder AppleShowAllFiles true
 defaults write -g com.apple.mouse.scaling 12
