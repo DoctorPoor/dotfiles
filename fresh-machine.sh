@@ -27,3 +27,5 @@ brew cask install whatsapp
 brew cask install clipy
 brew cask install sublime-text
 brew cask install visual-studio-code
+brew cask install licecap
+
