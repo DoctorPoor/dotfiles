@@ -100,5 +100,7 @@ alias gdm="g diff master..HEAD"
 alias gsts="g stash"
 alias gmm="g merge master"
 alias gsbu="g submodule update"
+alias gs.="gs ."
+alias gd.="gd ."
 
 eval "$(thefuck --alias fuck)"
