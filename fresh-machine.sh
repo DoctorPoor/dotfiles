@@ -28,4 +28,5 @@ brew cask install clipy
 brew cask install sublime-text
 brew cask install visual-studio-code
 brew cask install licecap
+brew cask install gimp
 
