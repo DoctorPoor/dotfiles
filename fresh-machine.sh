@@ -22,6 +22,9 @@ brew install yarn
 
 brew cask install iterm2
 brew cask install google-chrome
+brew cask install firefox
+brew cask install vlc
+brew cask install webstorm
 brew cask install spotify
 brew cask install whatsapp
 brew cask install clipy
