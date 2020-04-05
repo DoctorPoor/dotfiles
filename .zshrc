@@ -103,5 +103,6 @@ alias gsbu="g submodule update"
 alias gs.="gs ."
 alias gd.="gd ."
 alias ga.="ga ."
+alias grlog="g reflog"
 
 eval "$(thefuck --alias fuck)"
