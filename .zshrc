@@ -104,5 +104,7 @@ alias gs.="gs ."
 alias gd.="gd ."
 alias ga.="ga ."
 alias grlog="g reflog"
+alias gbd="g branch -D"
+alias gbm="g branch -m"
 
 eval "$(thefuck --alias fuck)"
