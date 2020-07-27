@@ -1,19 +1,22 @@
-# TODO: git configs like user and aliases
-# TODO: git ssh with github
-# TODO: setting up iTerm theme
-# TODO: setting up oh-my-zsh theme
-# TODO: setting up git aliases
+#
+# MacOS Defaults
+#
 
-defaults write com.apple.Finder AppleShowAllFiles true
-defaults write -g com.apple.mouse.scaling 12
-defaults write NSGlobalDomain ApplePressAndHoldEnabled -bool false
+defaults write com.apple.Finder AppleShowAllFiles true    # show hidden files
+defaults write -g com.apple.mouse.scaling 12    # bump mouse speed
+defaults write -g com.apple.trackpad.scaling 12i    # bump trackpad speed
+defaults write -g ApplePressAndHoldEnabled -bool false    # disable keyboard press and hold
+defaults write -g InitialKeyRepeat 15    # lower keyboard initial key repeat
+defaults write -g KeyRepeat 0    # bump key repeat speed
 
-# install brew
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+#
+# Tooling
+#
 
-#install zsh
-sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"    # install brew
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"    # install oh-my-zsh
 
+brew install zsh-syntax-highlighting
 brew install thefuck
 brew install htop
 brew install node
@@ -23,7 +26,6 @@ brew install yarn
 brew cask install iterm2
 brew cask install google-chrome
 brew cask install firefox
-brew cask install vlc
 brew cask install webstorm
 brew cask install spotify
 brew cask install whatsapp
@@ -32,4 +34,7 @@ brew cask install sublime-text
 brew cask install visual-studio-code
 brew cask install licecap
 brew cask install gimp
+
+rm ~/.zshrc; cp ./.zshrc ~/.zshrc    # update .zhsrc
+cp ./kphoen-perry.zsh-theme ~/.oh-my-zsh/themes    # setup zsh theme
 
