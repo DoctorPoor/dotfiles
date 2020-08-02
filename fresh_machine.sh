@@ -35,7 +35,9 @@ brew cask install visual-studio-code
 brew cask install licecap
 brew cask install gimp
 
-rm ~/.vimrc; cp ./.vimrc ~/.vimrc    # update .vimrc
+cp ./perry.zsh-theme ~/.oh-my-zsh/themes    # setup zsh theme
 rm ~/.zshrc; cp ./.zshrc ~/.zshrc    # update .zshrc
-cp ./kphoen-perry.zsh-theme ~/.oh-my-zsh/themes    # setup zsh theme
+
+mkdir -p ./vim/colors; cp ./monokai.vim ~/.vim/colors/monokai.vim    # add monokai.vim
+rm ~/.vimrc; cp ./.vimrc ~/.vimrc    # update .vimrc
 
