@@ -35,6 +35,7 @@ brew cask install visual-studio-code
 brew cask install licecap
 brew cask install gimp
 
-rm ~/.zshrc; cp ./.zshrc ~/.zshrc    # update .zhsrc
+rm ~/.vimrc; cp ./.vimrc ~/.vimrc    # update .vimrc
+rm ~/.zshrc; cp ./.zshrc ~/.zshrc    # update .zshrc
 cp ./kphoen-perry.zsh-theme ~/.oh-my-zsh/themes    # setup zsh theme
 
