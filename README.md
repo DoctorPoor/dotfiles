@@ -2,6 +2,15 @@
 
 ![Screenshot of my shell](https://i.imgur.com/cLgPN9l.png)
 
+Some of my preferences when setting up a new mac includes:
+- MacOS defaults
+- Daily apps
+- Zsh shell settings
+- Git aliases
+- iTerm settings
+- Dev tooling (e.g brew, node.js)
+- and [more](https://github.com/DoctorPoor/config/blob/master/fresh_machine.sh)
+
 ## Installation
 
 To apply the config, open a terminal and simply:
@@ -13,7 +22,7 @@ To apply the config, open a terminal and simply:
   $ git -v
   ```
 
-  <li> Clone (or <a href="https://docs.github.com/en/github/getting-started-with-github/fork-a-repo target="_blank">fork</a>) the repo and change directory into it:</li>
+  <li> Clone (or <a href="https://docs.github.com/en/github/getting-started-with-github/fork-a-repo">fork</a>) the repo and change directory into it:</li>
 
   ```
   $ git clone https://github.com/DoctorPoor/config.git && cd config
