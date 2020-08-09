@@ -1,5 +1,7 @@
 # Quick setup for MacOS
 
+![Screenshot of my shell](https://i.imgur.com/cLgPN9l.png)
+
 ## Installation
 
 To apply the config, open a terminal and simply:
