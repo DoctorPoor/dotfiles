@@ -1,6 +1,6 @@
 # Quick setup for MacOS
 
-![Screenshot of my shell](https://i.imgur.com/cLgPN9l.png)
+![Screenshot of my shell](https://i.imgur.com/6y8GTBl.png)
 
 Some of my preferences when setting up a new mac includes:
 - MacOS defaults
