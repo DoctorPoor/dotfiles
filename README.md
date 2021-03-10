@@ -25,7 +25,7 @@ To apply the config, open a terminal and simply:
   <li> Clone (or <a href="https://docs.github.com/en/github/getting-started-with-github/fork-a-repo">fork</a>) the repo and change directory into it:</li>
 
   ```
-  $ git clone https://github.com/DoctorPoor/config.git && cd config
+  $ git clone https://github.com/DoctorPoor/dotfiles.git && cd dotfiles
   ```
 
   <li> Verify <a href="https://github.com/DoctorPoor/config/blob/master/.zshrc#L5">.zshrc, line 5</a> has your correct `/Users` path (amend if not)</li>
