@@ -4,7 +4,7 @@
 
 defaults write com.apple.Finder AppleShowAllFiles true    # show hidden files
 defaults write -g com.apple.mouse.scaling 12    # bump mouse speed
-defaults write -g com.apple.trackpad.scaling 12i    # bump trackpad speed
+defaults write -g com.apple.trackpad.scaling 12    # bump trackpad speed
 defaults write -g ApplePressAndHoldEnabled -bool false    # disable keyboard press and hold
 defaults write -g InitialKeyRepeat 15    # lower keyboard initial key repeat
 defaults write -g KeyRepeat 0    # bump key repeat speed

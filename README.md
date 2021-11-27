@@ -9,7 +9,7 @@ Some of my preferences when setting up a new mac includes:
 - Git aliases
 - iTerm settings
 - Dev tooling (e.g brew, node.js)
-- and [more](https://github.com/DoctorPoor/config/blob/master/fresh_machine.sh)
+- and [more](https://github.com/DoctorPoor/config/blob/master/setup.sh)
 
 ## Installation
 
@@ -32,7 +32,7 @@ To apply the config, open a terminal and simply:
   <li> Run the setup script:</li>
 
   ```
-  $ sh fresh_machine.sh
+  $ sh setup.sh
   ```
 </ol>
 
