@@ -2,18 +2,18 @@
 
 ![Screenshot of my shell](https://i.imgur.com/6y8GTBl.png)
 
-Some of my preferences when setting up a new mac includes:
+Configurations include:
 - MacOS defaults
-- Daily apps
 - Zsh shell settings
 - Git aliases
 - iTerm settings
-- Dev tooling (e.g brew, node.js)
+- Command line tools (e.g brew, htop, pwdrng)
+- Applications (e.g sublime, chrome)
 - and [more](https://github.com/DoctorPoor/config/blob/master/setup.sh)
 
 ## Installation
 
-To apply the config, open a terminal and simply:
+Note: Your existing `~/.vimrc` and `~/.zshrc` will be overwritten after running the script
 
 <ol>
   <li> Install git (if you haven't already):</li>
@@ -28,7 +28,6 @@ To apply the config, open a terminal and simply:
   $ git clone https://github.com/DoctorPoor/dotfiles.git && cd dotfiles
   ```
 
-  <li> Verify <a href="https://github.com/DoctorPoor/config/blob/master/.zshrc#L5">.zshrc, line 5</a> has your correct `/Users` path (amend if not)</li>
   <li> Run the setup script:</li>
 
   ```

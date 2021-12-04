@@ -14,6 +14,9 @@ defaults write -g KeyRepeat 0    # bump key repeat speed
 #
 
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"    # install brew
+echo 'eval $(/opt/homebrew/bin/brew shellenv)' >> /Users/$USER/.zprofile
+eval $(/opt/homebrew/bin/brew shellenv)
+
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"    # install oh-my-zsh
 
 brew install zsh-syntax-highlighting
@@ -35,9 +38,9 @@ brew cask install visual-studio-code
 brew cask install licecap
 brew cask install gimp
 
-cp ./perry.zsh-theme ~/.oh-my-zsh/themes    # setup zsh theme
-rm ~/.zshrc; cp ./.zshrc ~/.zshrc    # update .zshrc
+cp ./zsh/perry.zsh-theme ~/.oh-my-zsh/themes/    # add zsh theme
+cp ./zsh/.zshrc ~    # update .zshrc
 
-mkdir -p ./vim/colors; cp ./monokai.vim ~/.vim/colors/monokai.vim    # add monokai.vim
-rm ~/.vimrc; cp ./.vimrc ~/.vimrc    # update .vimrc
+mkdir -p ~/.vim/colors; cp ./vim/monokai.vim ~/.vim/colors/    # add vim theme
+cp ./vim/.vimrc ~    # update .vimrc
 
