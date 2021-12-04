@@ -1,0 +1,33 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+    {
+        "key": "cmd+s",
+        "command": "-workbench.action.files.save"
+    },
+    {
+        "key": "cmd+s",
+        "command": "workbench.action.files.saveFiles"
+    },
+    {
+        "key": "shift+cmd+d",
+        "command": "-workbench.view.debug",
+        "when": "viewContainer.workbench.view.debug.enabled"
+    },
+    {
+        "key": "shift+cmd+d",
+        "command": "editor.action.moveSelectionToPreviousFindMatch"
+    },
+    {
+        "key": "shift+cmd+o",
+        "command": "-workbench.action.gotoSymbol"
+    },
+    {
+        "key": "shift+cmd+o",
+        "command": "workbench.action.quickOpen"
+    },
+    {
+        "key": "cmd+p",
+        "command": "-workbench.action.quickOpen"
+    }
+]
+
