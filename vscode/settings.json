@@ -1,7 +1,9 @@
 {
-    "workbench.colorTheme": "Monokai",
     "editor.links": false,
     "explorer.confirmDelete": false,
+    "workbench.colorTheme": "Monokai",
+    "workbench.editor.openPositioning": "last",
+    "workbench.editor.wrapTabs": true,
     "[go]": {
         "editor.formatOnSave": false,
         "editor.codeActionsOnSave": {
