@@ -34,4 +34,3 @@ Note: Your existing `~/.vimrc` and `~/.zshrc` will be overwritten after running 
   $ sh setup.sh
   ```
 </ol>
-
