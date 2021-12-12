@@ -44,5 +44,5 @@ brew install --cask \
 cp ./zsh/perry.zsh-theme ~/.oh-my-zsh/themes/    # add zsh theme
 cp ./zsh/.zshrc ~    # update .zshrc
 
-mkdir -p ~/.vim/colors; cp ./vim/monokai.vim ~/.vim/colors/    # add vim theme
+mkdir -p ~/.vim/colors; cp ./vim/.vim/colors/monokai.vim ~/.vim/colors/    # add vim theme
 cp ./vim/.vimrc ~    # update .vimrc
