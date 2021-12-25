@@ -1,15 +1,21 @@
 {
     "editor.links": false,
+    "explorer.autoReveal": false,
     "explorer.confirmDelete": false,
-    "workbench.colorTheme": "Monokai",
-    "workbench.editor.openPositioning": "last",
-    "workbench.editor.wrapTabs": true,
+    "go.survey.prompt": false,
     "[go]": {
         "editor.formatOnSave": false,
         "editor.codeActionsOnSave": {
             "source.fixAll": false,
             "source.organizeImports": false
         }
-    }
+    },
+    "rust-analyzer.lens.enable": false,
+    "rust-analyzer.updates.askBeforeDownload": true,
+    "rust-analyzer.inlayHints.enable": false,
+    "workbench.colorTheme": "Monokai",
+    "workbench.editor.focusRecentEditorAfterClose": false,
+    "workbench.editor.openPositioning": "last",
+    "workbench.editor.wrapTabs": true
 }
 
