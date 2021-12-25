@@ -22,6 +22,7 @@ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.
 brew tap doctorpoor/pwdrng
 brew install \
   htop \
+  pre-commit \
   pwdrng \
   thefuck \
   vim \
