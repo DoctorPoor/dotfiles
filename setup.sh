@@ -53,5 +53,8 @@ cp ./zsh/.zshrc ~                                                               
 mkdir -p ~/.vim/colors; cp ./vim/.vim/colors/monokai.vim ~/.vim/colors/                                    # add vim theme
 cp ./vim/.vimrc ~                                                                                          # update .vimrc
 
+cp ./vscode/keybindings.json ~/Library/Application Support/Code/User/                                      # update vscode keybindings
+cp ./vscode/settings.json ~/Library/Application Support/Code/User/                                         # update vscode settings
+
 cp ./iterm2/com.googlecode.iterm2.plist ~/Library/Preferences/                                             # update iterm2 preferences
 defaults read com.googlecode.iterm2

@@ -18,24 +18,20 @@ Configurations include:
 > :warning: **The following files will be overwritten:**
 > - `~/.vimrc`
 > - `~/.zshrc`
+> - `~/Library/Application Support/Code/User/keybindings.json`
+> - `~/Library/Application Support/Code/User/settings.json`
 > - `~/Library/Preferences/com.googlecode.iterm2.plist`
 
 <br />
 
 <ol>
-  <li> Install git (if you haven't already):</li>
-
-  ```
-  $ git -v
-  ```
-
-  <li> Clone (or <a href="https://docs.github.com/en/github/getting-started-with-github/fork-a-repo">fork</a>) the repo and change directory into it:</li>
+  <li>Clone the repo and change directory into it:</li>
 
   ```
   $ git clone https://github.com/DoctorPoor/dotfiles.git && cd dotfiles
   ```
 
-  <li> Run the setup script:</li>
+  <li>Run the setup script:</li>
 
   ```
   $ sh setup.sh
