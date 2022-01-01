@@ -52,3 +52,6 @@ cp ./zsh/.zshrc ~                                                               
 
 mkdir -p ~/.vim/colors; cp ./vim/.vim/colors/monokai.vim ~/.vim/colors/                                    # add vim theme
 cp ./vim/.vimrc ~                                                                                          # update .vimrc
+
+cp ./iterm2/com.googlecode.iterm2.plist ~/Library/Preferences/                                             # update iterm2 preferences
+defaults read com.googlecode.iterm2

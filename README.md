@@ -13,7 +13,14 @@ Configurations include:
 
 ## Installation
 
-Note: Your existing `~/.vimrc` and `~/.zshrc` will be overwritten after running the script
+<br />
+
+> :warning: **The following files will be overwritten:**
+> - `~/.vimrc`
+> - `~/.zshrc`
+> - `~/Library/Preferences/com.googlecode.iterm2.plist`
+
+<br />
 
 <ol>
   <li> Install git (if you haven't already):</li>
