@@ -47,14 +47,14 @@ brew install --cask \
   whatsapp \
   visual-studio-code \
 
-cp ./zsh/perry.zsh-theme ~/.oh-my-zsh/themes/                                                              # add zsh theme
-cp ./zsh/.zshrc ~                                                                                          # update .zshrc
+cp -i ./zsh/perry.zsh-theme ~/.oh-my-zsh/themes/                                                              # add zsh theme
+cp -i ./zsh/.zshrc ~                                                                                          # update .zshrc
 
-mkdir -p ~/.vim/colors; cp ./vim/.vim/colors/monokai.vim ~/.vim/colors/                                    # add vim theme
-cp ./vim/.vimrc ~                                                                                          # update .vimrc
+mkdir -p ~/.vim/colors; cp -i ./vim/.vim/colors/monokai.vim ~/.vim/colors/                                    # add vim theme
+cp -i ./vim/.vimrc ~                                                                                          # update .vimrc
 
-cp ./vscode/keybindings.json ~/Library/Application Support/Code/User/                                      # update vscode keybindings
-cp ./vscode/settings.json ~/Library/Application Support/Code/User/                                         # update vscode settings
+cp -i ./vscode/keybindings.json ~/Library/Application Support/Code/User/                                      # update vscode keybindings
+cp -i ./vscode/settings.json ~/Library/Application Support/Code/User/                                         # update vscode settings
 
-cp ./iterm2/com.googlecode.iterm2.plist ~/Library/Preferences/                                             # update iterm2 preferences
+cp -i ./iterm2/com.googlecode.iterm2.plist ~/Library/Preferences/                                             # update iterm2 preferences
 defaults read com.googlecode.iterm2

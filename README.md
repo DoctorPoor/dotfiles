@@ -13,17 +13,6 @@ Configurations include:
 
 ## Installation
 
-<br />
-
-> :warning: **The following files will be overwritten:**
-> - `~/.vimrc`
-> - `~/.zshrc`
-> - `~/Library/Application Support/Code/User/keybindings.json`
-> - `~/Library/Application Support/Code/User/settings.json`
-> - `~/Library/Preferences/com.googlecode.iterm2.plist`
-
-<br />
-
 <ol>
   <li>Clone the repo and change directory into it:</li>
 
