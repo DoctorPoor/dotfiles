@@ -43,9 +43,10 @@ brew install --cask \
   licecap \
   spotify \
   sublime-text \
+  vlc \
+  visual-studio-code \
   webstorm \
   whatsapp \
-  visual-studio-code \
 
 cp -i ./zsh/perry.zsh-theme ~/.oh-my-zsh/themes/                                                              # add zsh theme
 cp -i ./zsh/.zshrc ~                                                                                          # update .zshrc
