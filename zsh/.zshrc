@@ -106,12 +106,12 @@ alias ga.="ga ."
 alias grlog="g reflog"
 alias gbd="g branch -D"
 alias gbm="g branch -m"
-alias ...=../..
-alias ....=../../..
-alias .....=../../../..
-alias ......=../../../../..
-alias .......=../../../../../..
-alias ........=../../../../../../..
+alias ...="cd ../.."
+alias ....="cd ../../.."
+alias .....="cd ../../../.."
+alias ......="cd ../../../../.."
+alias .......="cd ../../../../../.."
+alias ........="cd ../../../../../../.."
 
 eval "$(thefuck --alias fuck)"
 
