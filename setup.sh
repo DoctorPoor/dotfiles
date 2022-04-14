@@ -24,8 +24,10 @@ eval $(/opt/homebrew/bin/brew shellenv)
 
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"                       # install oh-my-zsh
 
+brew tap doctorpoor/dasd
 brew tap doctorpoor/pwdrng
 brew install \
+  dasd \
   htop \
   pre-commit \
   pwdrng \
