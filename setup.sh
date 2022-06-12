@@ -2,6 +2,7 @@
 # MacOS Defaults
 ################################
 
+defaults write com.apple.finder _FXShowPosixPathInTitle true                                               # show path in finder title bar
 defaults write com.apple.Finder AppleShowAllFiles true                                                     # show hidden files
 defaults write -g com.apple.mouse.scaling 12                                                               # bump mouse speed
 defaults write -g com.apple.trackpad.scaling 12                                                            # bump trackpad speed
