@@ -1,0 +1,4 @@
+[
+  { "keys": ["super+shift+d"], "command": "soft_undo" },
+  { "keys": ["super+u"], "command": "duplicate_line" },
+]

@@ -50,14 +50,17 @@ brew install --cask \
   webstorm \
   whatsapp \
 
-ln -i ./zsh/perry.zsh-theme ~/.oh-my-zsh/themes/                                                              # add zsh theme
-ln -i ./zsh/.zshrc ~                                                                                          # update .zshrc
+ln -i ./zsh/perry.zsh-theme ~/.oh-my-zsh/themes/                                                                        # add zsh theme
+ln -i ./zsh/.zshrc ~                                                                                                    # update .zshrc
 
-mkdir -p ~/.vim/colors; ln -i ./vim/.vim/colors/monokai.vim ~/.vim/colors/                                    # add vim theme
-ln -i ./vim/.vimrc ~                                                                                          # update .vimrc
+mkdir -p ~/.vim/colors; ln -i ./vim/.vim/colors/monokai.vim ~/.vim/colors/                                              # add vim theme
+ln -i ./vim/.vimrc ~                                                                                                    # update .vimrc
 
-ln -i ./vscode/keybindings.json ~/Library/Application\ Support/Code/User/                                     # update vscode keybindings
-ln -i ./vscode/settings.json ~/Library/Application\ Support/Code/User/                                        # update vscode settings
+ln -i ./sublime_text/Default\ \(OSX\).sublime-keymap ~/Library/Application\ Support/Sublime\ Text/Packages/User/        # update sublime_text keybindings
+ln -i ./sublime_text/Preferences.sublime-settings ~/Library/Application\ Support/Sublime\ Text/Packages/User/           # update sublime_text settings
 
-ln -i ./iterm2/com.googlecode.iterm2.plist ~/Library/Preferences/                                             # update iterm2 preferences
+ln -i ./vscode/keybindings.json ~/Library/Application\ Support/Code/User/                                               # update vscode keybindings
+ln -i ./vscode/settings.json ~/Library/Application\ Support/Code/User/                                                  # update vscode settings
+
+ln -i ./iterm2/com.googlecode.iterm2.plist ~/Library/Preferences/                                                       # update iterm2 preferences
 defaults read com.googlecode.iterm2
