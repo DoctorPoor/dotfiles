@@ -91,6 +91,7 @@ alias .....="cd ../../../.."
 alias ......="cd ../../../../.."
 alias .......="cd ../../../../../.."
 alias ........="cd ../../../../../../.."
+alias air='$(go env GOPATH)/bin/air'
 alias c2f='f(){ echo -n ">> $1 °C = "; echo scale=2\; \("$1"\*9\/5\)+32 | bc | tr "\n" " "; echo °F;  unset -f f; }; f'
 alias f2c='f(){ echo -n ">> $1 °F = "; echo scale=2\; \("$1"-32\)\*5\/9 | bc | tr "\n" " "; echo °C;  unset -f f; }; f'
 alias ga.="ga ."
@@ -114,8 +115,11 @@ alias grlog="g reflog"
 alias gs.="gs ."
 alias gs="g status -sb"
 alias gsbu="g submodule update"
+alias gshow="g show"
 alias gsts="g stash"
+alias uuidgen='uuidgen | tr -d "\n" | tr "[:upper:]" "[:lower:]" | pbcopy'
 
 eval "$(thefuck --alias fuck)"
 
 source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+export PATH="/opt/homebrew/opt/postgresql@15/bin:$PATH"
