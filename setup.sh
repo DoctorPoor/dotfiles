@@ -37,17 +37,20 @@ brew install \
   zsh-syntax-highlighting \
 
 brew install --cask \
+  audacity \
   brave-browser \
+  chromium \
   clipy \
   firefox \
   gimp \
   google-chrome \
+  inkscape \
   iterm2 \
   licecap \
   spotify \
   sublime-text \
   vlc \
-  visual-studio-code \
+  vscodium \
   webstorm \
   whatsapp \
 
