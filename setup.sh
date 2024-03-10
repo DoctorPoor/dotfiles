@@ -29,6 +29,7 @@ brew tap doctorpoor/dasd
 brew tap doctorpoor/pwdrng
 brew install \
   dasd \
+  ghostscript \
   htop \
   pre-commit \
   pwdrng \
@@ -41,9 +42,11 @@ brew install --cask \
   brave-browser \
   chromium \
   clipy \
+  eloston-chromium \
   firefox \
   gimp \
   google-chrome \
+  imagemagick \
   inkscape \
   iterm2 \
   licecap \
