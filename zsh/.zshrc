@@ -120,6 +120,7 @@ alias gsts="g stash"
 alias uuidgen='uuidgen | tr -d "\n" | tr "[:upper:]" "[:lower:]" | pbcopy'
 md5() {printf '%s' "$1" | md5sum | awk '{print $1}' | tr -d '\n' | pbcopy}
 r2fa() { 2fa "$1" | pbcopy; }
+sha1() {printf '%s' "$1" | sha1sum | awk '{print $1}' | tr -d '\n' | pbcopy}
 
 eval "$(thefuck --alias fuck)"
 
