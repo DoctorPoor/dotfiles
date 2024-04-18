@@ -34,6 +34,7 @@ brew install \
   pre-commit \
   pwdrng \
   thefuck \
+  tokei \
   vim \
   zsh-syntax-highlighting \
 
