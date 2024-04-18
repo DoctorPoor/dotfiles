@@ -118,6 +118,7 @@ alias gsbu="g submodule update"
 alias gshow="g show"
 alias gsts="g stash"
 alias uuidgen='uuidgen | tr -d "\n" | tr "[:upper:]" "[:lower:]" | pbcopy'
+md5() {printf '%s' "$1" | md5sum | awk '{print $1}' | tr -d '\n' | pbcopy}
 r2fa() { 2fa "$1" | pbcopy; }
 
 eval "$(thefuck --alias fuck)"

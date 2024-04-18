@@ -31,6 +31,7 @@ brew install \
   dasd \
   ghostscript \
   htop \
+  md5sha1sum \
   pre-commit \
   pwdrng \
   rsc_2fa \
