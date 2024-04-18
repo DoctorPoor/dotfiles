@@ -33,6 +33,7 @@ brew install \
   htop \
   pre-commit \
   pwdrng \
+  rsc_2fa \
   thefuck \
   tokei \
   vim \
