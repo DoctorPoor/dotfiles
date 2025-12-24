@@ -15,6 +15,35 @@ defaults write NSGlobalDomain NSAutomaticDashSubstitutionEnabled -bool false    
 defaults write com.apple.TextEdit SmartQuotes -bool false                                                  # disable smart quotes for TextEdit
 defaults write com.apple.TextEdit SmartDashes -bool false                                                  # disable smart dashes for TextEdit
 
+
+defaults write com.apple.controlcenter "NSStatusItem Preferred Position AccessibilityShortcuts" = 454;
+defaults write com.apple.controlcenter "NSStatusItem Preferred Position Battery" = 247;
+defaults write com.apple.controlcenter "NSStatusItem Preferred Position BentoBox" = 147;
+defaults write com.apple.controlcenter "NSStatusItem Preferred Position Bluetooth" = 359;
+defaults write com.apple.controlcenter "NSStatusItem Preferred Position KeyboardBrightness" = 388;
+defaults write com.apple.controlcenter "NSStatusItem Preferred Position NowPlaying" = 426;
+defaults write com.apple.controlcenter "NSStatusItem Preferred Position Sound" = 323;
+defaults write com.apple.controlcenter "NSStatusItem Preferred Position WiFi" = 211;
+defaults write com.apple.controlcenter "NSStatusItem Visible AccessibilityShortcuts" = 0;
+defaults write com.apple.controlcenter "NSStatusItem Visible Battery" -bool true
+defaults write com.apple.controlcenter "NSStatusItem Visible BentoBox" -bool true
+defaults write com.apple.controlcenter "NSStatusItem Visible Bluetooth" -bool true
+defaults write com.apple.controlcenter "NSStatusItem Visible Clock" -bool true
+defaults write com.apple.controlcenter "NSStatusItem Visible Item-0" -bool false
+defaults write com.apple.controlcenter "NSStatusItem Visible Item-1" -bool false
+defaults write com.apple.controlcenter "NSStatusItem Visible Item-2" -bool false
+defaults write com.apple.controlcenter "NSStatusItem Visible Item-3" -bool false
+defaults write com.apple.controlcenter "NSStatusItem Visible Item-4" -bool false
+defaults write com.apple.controlcenter "NSStatusItem Visible Item-5" -bool false
+defaults write com.apple.controlcenter "NSStatusItem Visible Item-6" -bool false
+defaults write com.apple.controlcenter "NSStatusItem Visible Item-7" -bool false
+defaults write com.apple.controlcenter "NSStatusItem Visible Item-8" -bool false
+defaults write com.apple.controlcenter "NSStatusItem Visible KeyboardBrightness" -bool false
+defaults write com.apple.controlcenter "NSStatusItem Visible NowPlaying" -bool true
+defaults write com.apple.controlcenter "NSStatusItem Visible Sound" -bool true
+defaults write com.apple.controlcenter "NSStatusItem Visible WiFi" -bool true
+
+
 ################################
 # Tooling
 ################################
@@ -52,6 +81,7 @@ brew install --cask \
   imagemagick \
   inkscape \
   iterm2 \
+  kawa \
   licecap \
   spotify \
   sublime-text \
